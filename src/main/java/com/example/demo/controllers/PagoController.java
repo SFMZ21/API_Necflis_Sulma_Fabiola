@@ -1,8 +1,6 @@
 package com.example.demo.controllers;
 
-import com.example.demo.entities.Cliente;
 import com.example.demo.entities.Pago;
-import com.example.demo.entities.Plan;
 import com.example.demo.repositories.PagoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
