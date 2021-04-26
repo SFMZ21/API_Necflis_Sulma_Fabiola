@@ -34,7 +34,7 @@ public class PagoController {
             pagoActualizado.setId(id);
             pagoActualizado.setFecha(pago.getFecha());
             pagoActualizado.setMonto(pago.getMonto());
-            pagoActualizado.setNumeroTarjeta(pago.getNumeroTarjeta());
+            pagoActualizado.setTarjeta(pago.getTarjeta());
             pagoActualizado.setEstado(pago.getEstado());
 
             Pago pagoGuardado = pagoRepository.save(pagoActualizado);

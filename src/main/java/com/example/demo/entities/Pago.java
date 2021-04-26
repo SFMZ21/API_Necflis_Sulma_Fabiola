@@ -16,8 +16,8 @@ public class Pago {
     @Column(name="monto")
     private Double monto;
 
-    @Column(name="numeroTarjeta")
-    private String numeroTarjeta;
+    @Column(name="tarjeta")
+    private String tarjeta;
 
     @Column(name="estado")
     private Boolean estado;
@@ -46,12 +46,12 @@ public class Pago {
         this.monto = monto;
     }
 
-    public String getNumeroTarjeta() {
-        return numeroTarjeta;
+    public String getTarjeta() {
+        return tarjeta;
     }
 
-    public void setNumeroTarjeta(String numeroTarjeta) {
-        this.numeroTarjeta = numeroTarjeta;
+    public void setTarjeta(String tarjeta) {
+        this.tarjeta = tarjeta;
     }
 
     public Boolean getEstado() {
